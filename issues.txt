@@ -1,0 +1,2 @@
+Showing "actual price" graph even if the data is of future
+X axis dates are not proper

@@ -1,0 +1,44 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python cache and build
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data artifacts (large/generated)
+input/*.csv
+input/*.csv.zip
+stock_data_*.csv
+
+# Trained models and checkpoints
+*.keras
+*.h5
+checkpoint/
+saved_model/
+logs/
+
+# Secrets/API keys
+alphavantage.txt
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
