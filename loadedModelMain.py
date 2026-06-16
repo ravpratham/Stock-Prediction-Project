@@ -14,7 +14,6 @@ print(model.input_shape)
 # data = data[data.symbol == tickerSymbol]
 # data.head()
 
-# Fetch IBM stock data from Yahoo Finance
 ticker = "ADBE"
 data = yf.download(ticker, start="2025-08-20", end="2025-09-20")
 data.head()
