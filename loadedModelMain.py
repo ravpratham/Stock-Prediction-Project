@@ -15,7 +15,7 @@ print(model.input_shape)
 # data.head()
 
 ticker = "ADBE"
-data = yf.download(ticker, start="2025-08-20", end="2025-09-20")
+data = yf.download(ticker, start="2025-08-20", end="2026-05-20")
 data.head()
 
 
